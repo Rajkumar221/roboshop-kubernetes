@@ -1,5 +1,6 @@
 variable "env" {}
 variable "subnet_ids" {}
-variable "desired_size" {}
 variable "max_size" {}
 variable "min_size" {}
+variable "capacity_type" {}
+variable "instance_types" {}

@@ -1,4 +1,4 @@
-esource "aws_eks_cluster" "eks" {
+resource "aws_eks_cluster" "eks" {
   name     = "${var.env}-eks"
   role_arn = aws_iam_role.example.arn
 
